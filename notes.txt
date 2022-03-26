@@ -1,0 +1,43 @@
+Acceptance criteria:
+
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+
+pseudocode:
+
+Create a function() referencing a button click to display window messages.
+    (when the button is clicked I enter a function with a set of window.prompts collect informatin.)
+
+Use prompt users to choose which type of characters they would like their password to contain:
+    - How long do you want your password to be? choose a number between 8 and 128 charaacters.
+    - Would you like your password to include Numbers?
+    - Would you like your password to include Lower case characters?
+    - Would you like your password to include upper case charecters? 
+    - Would you like your password to include special characters?
+
+create if statement 
+
+
+
+1st - create a VARIABLE refferencing to the content inside the TEXT AREA using querySelector(#generate)
+2nd - add an event listener click 
+3nd - create a window alert triggered by the click on the generate password button
+
+
+
+
+
+

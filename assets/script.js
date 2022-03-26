@@ -1,17 +1,12 @@
-// Assignment code here
 
-
-// Get references to the #generate element
+// 1st - create variable and refference it to the #generate element
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+// 2nd - Define a function to be reffered to as event listener
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
 
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// 3rd - add event listener (type click) to created variable referencing to 
+generateBtn.addEventListener("Click", writePassword)
+
