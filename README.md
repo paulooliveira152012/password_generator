@@ -21,7 +21,7 @@ THEN my input should be validated and at least one character type should be sele
  * When all prompts are answered a password matching the selected criteria will be displayed as an alert and/or written on the page.
 
 
- ## contributers to the project:
+ ## Contributers to the project:
  - Paulo Oliverira
 
 ## Links and preview: 
@@ -30,12 +30,12 @@ THEN my input should be validated and at least one character type should be sele
 ![GitHub-repository] (https://github.com/paulooliveira152012/password_generator)
 
 HTML Screen-shot
-![HTML ScreenShot](PATH HERE!)
+![HTML-ScreenShot](/assets/readme_images/HTML_image.png) 
 
-CSS Screen-shot
-![CSS ScreenShot](PATH HERE!)
+JavaScript Screen-shot
+![JavaScript](assets/readme_images/JavaScript_image.png)
 
 Website Screen-shot
-![WebsiteScreenshot](PATH HERE!)
+![WebsiteScreenshot](assets/readme_images/Website_Image.png)
 
 
